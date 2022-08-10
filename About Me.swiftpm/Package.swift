@@ -38,5 +38,9 @@ let package = Package(
             name: "App",
             path: "App"
         )
+        .binaryTarget(
+            name: "AboutMe",
+            path: "AboutMe.xcframework"
+        )
     ]
 )
